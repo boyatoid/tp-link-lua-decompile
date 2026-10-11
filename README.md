@@ -159,5 +159,9 @@ emits standard Lua 5.1 bytecode, so any stock tool can consume it.
 
 ## License
 
-Not yet chosen; see the repo owner before redistributing. The derivation operates only on
-public sources (lua.org, LuaSocket) and files already on your own device.
+GPL-3.0-or-later. See [LICENSE](LICENSE).
+
+The derivation runs only against public sources (lua.org, LuaSocket) and firmware files
+already on your own device. No TP-Link key material, firmware, or proprietary code is
+redistributed here: `opmap.json` records an opcode numbering recovered by observation, and
+the scripts fetch nothing from the vendor.
