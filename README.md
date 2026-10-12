@@ -1,4 +1,4 @@
-# tplink-lua-opcodes
+# tp-link-lua-decompile
 
 Recover the **renumbered Lua 5.1 opcode table** from TP-Link router firmware and
 decompile the LuCI backend to readable source.
